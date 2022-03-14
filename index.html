@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" placeholder="0" id="outpout-screen" disabled>
+            <button onclick="Clear()">C</button>
+            <button onclick="operator('%')">%</button>
+            <button onclick="operator('/')">/</button>
+            <button onclick="operator('+')" id="addision">+</button>
+            <button onclick="func('7')">7</button>
+            <button onclick="func('8')">8</button>
+            <button onclick="func('9')">9</button>
+            <button onclick="operator('*')">*</button>
+            <button onclick="func('4')">4</button>
+            <button onclick="func('5')">5</button>
+            <button onclick="func('6')">6</button>
+            <button onclick="operator('-')">-</button>
+            <button onclick="func('1')">1</button>
+            <button onclick="func('2')">2</button>
+            <button onclick="func('3')">3</button>
+            <button onclick="comma()" id="comma">.</button>
+            <button onclick="func('0')">0</button>
+            <button onclick="func('00')">00</button>
+            <button onclick="equal()" class="equal">=</button>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
